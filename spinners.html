@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .spinner-svg {
+            width: 100px;
+            height: 100px;
+        }
+        .spinner-svg circle {
+            fill: none;
+            stroke: #3498db;
+            stroke-width: 4;
+            stroke-dasharray: 150,200;
+            stroke-dashoffset: -10;
+            animation: svg-spin 2s infinite linear;
+        }
+        @keyframes svg-spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <svg class="spinner-svg" viewBox="0 0 50 50">
+        <circle cx="25" cy="25" r="20"></circle>
+    </svg>
+</body>
+</html>
+
+
+

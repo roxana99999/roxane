@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .progress {
+            width: 100%;
+            background-color: #f3f3f3; 
+        }
+
+        .progress-bar {
+            width: 0;
+            height: 30px;
+            background-color: #3498db;
+            animation: load 3s linear infinite;
+        }
+
+        @keyframes load {
+            0% { width: 0; }
+            50% { width: 100%; }
+            100% { width: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress">
+        <div class="progress-bar"></div>
+    </div>
+</body>
+</html>

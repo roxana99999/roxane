@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /*// var a = parseInt(prompt("intrez un numbre"));
+        for (var i =1;i<=10;i++)
+        {
+             
+           // document.write(a +"%" + i + "=" + a%i +"<br>");
+          for (var b=1;b<=10;b++)
+          {
+            document.write(b +"*" + i + "=" + b*i+ "<br>")
+          }
+
+
+
+           
+        }
+        */
+         // la factorial n! / method 1
+         /*
+         var a = parseInt(prompt("intrez un numbre"));
+         document.write(a + "<br>");
+         var i = a-1;;
+         
+        while (i > 0)
+        {
+          a = a * i;
+         
+          i--;
+
+        }
+        document.write( a )
+        */
+        // la factorial n! / method 2
+       /*
+        var c = parseInt(prompt("intrez un numbre"));
+        var i = 0;
+        var b = 1;
+        while (i < c)
+        {
+          b = b * (c-i);
+          i++
+        }
+
+        document.write("la factorial " + b )
+        */
+        // la factorial n! / method 3
+        /*
+        var n = parseInt(prompt("entrez un numbre"));
+        var i = 1;
+        var fact = 1;
+        while(i<=n)
+        {
+          fact = fact * i;
+          i++;
+        }
+        document.write("la factorial " + fact );
+        */
+       /*
+       var i =1;
+       do {
+        document.write("bonjour" + "<br>");
+        i++;
+       }
+       while(i<=10);
+       */
+      /////////////////////////////////////////////////
+       /*
+      // 4+3+2=1+0=10
+       var n = parseInt(prompt("entrez un numbre"));
+       var i=0;
+       var r = n-i;
+       while (n > i)
+       {
+        
+        r = r +i ;
+        i++;
+       }
+       document.write("la somme est " + r);
+       */
+       //////////////////////////////////////
+       /*
+      var i =0;
+      var s =0;
+      do 
+      {
+        s = s + i;
+        i ++;
+      } while (i<10)
+      document.write("la somme = " + s);
+     */
+    /////////////////////////////
+    /*
+    // le min est
+     var n = parseInt(prompt("entrez un numbre a"));
+     var m = parseInt(prompt("entrez un numbre b"));
+     if (n > m )
+     document.write("la min est " + m);
+    else if (m > n)
+    document.write("la min est " + n);
+  */
+ /*
+      do 
+      {
+        var n = parseInt(prompt("entrez un numbre a"));
+     var m = parseInt(prompt("entrez un numbre b"));
+     if (n > m )
+     document.write("la min est " + m);
+    else if (m > n)
+    document.write("la min est " + n);
+      } while (n==0 && m==0)
+      */
+     
+
+     
+      
+      /////////////////////////////////////
+      /*
+      var a = parseInt(prompt("entrey un numbre a "));
+      var b = parseInt(prompt("entrey un numbre b"));
+      var c = parseInt(prompt("entrey un numbre c"));3
+      var d = parseInt(prompt("entrey un numbre d"));
+      var e = parseInt(prompt("entrey un numbre e"));
+
+      var moy = ((a+b+c+d+e)/5);
+      document.write("la moy est " + moy);
+      */
+     //////////////////////////////////////////////////////////////////////////////////
+      /*
+      do {
+      var a = parseInt(prompt("entrez un numbre a"));
+      var b = parseInt(prompt("entrez un numbre b"));
+      var c = parseInt(prompt("entrez un numbre c"));}
+      while (a == b || a == c || c == b)
+      
+
+      if (a > b && b > c)
+     { 
+     
+      document.write("la max est " + a + "<br>");
+     
+     document.write("la min est " + c+ "<br>");
+     }
+
+     else if (a > c && c > b)
+     {    
+        document.write("la max est " + a + "<br>");
+     
+     document.write("la min est " + b) + "<br>";
+     }
+      else if (b > a && a > c)
+      {      document.write("la max est " + b + "<br>");
+     
+      document.write("la min est " + c + "<br>");
+      }
+      else if (b > c && c > a)
+      {      document.write("la max est " + b + "<br>");
+      
+      document.write("la min est " + a + "<br>");
+      }
+     
+      else if (c > b && b > a)
+      {      document.write("la max est " + c + "<br>" );
+      
+      document.write("la min est " + a + "<br>"  );
+      }
+      else if (c > a && a > b)
+      {      document.write("la max est " + c + "<br>");
+      
+      document.write("la min est " + b + "<br>");
+      }
+      */
+     ////////////////////////////////////////////////////////////////////////////////////////////////
+     /*
+      function etats () {document.write("HELLO"+ "<br>") ;
+        document.write("holla" + "<br>");
+        document.write("coco" + "<br>"  + "<br>"  + "<br>" ); 
+      }
+      etats ();
+      etats ();
+      etats ();
+      */
+     /////////////////////////////////////////////////////////////////////////////////////
+      /*
+     var a = parseInt(prompt("entrez un numbre a "));
+     var b = parseInt(prompt("entrez un numbre b "));
+     function somme (a , b)
+     {
+      document.write(`la somme de  ${a} et ${b} est : ${a+b}` +"<br>" );
+
+     }
+     somme (a , b);
+     var a = parseInt(prompt("entrez un numbre a "));
+     var b = parseInt(prompt("entrez un numbre b "));
+     somme (a , b);
+     var a = parseInt(prompt("entrez un numbre a "));
+     var b = parseInt(prompt("entrez un numbre b "));
+     somme (a , b );
+     */
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+     /*
+    function multiplication (a , b)
+    {
+      return a * b ;
+    }
+    alert( multiplication (2 , 4));
+    */
+   /////////////////////////////////////////////////////
+   /*
+   var a = parseInt(prompt("entrez un numbre a "));
+   function calculer_carre (a)
+   {
+    document.write (`le carre de ${a} est ${a*a}` + "<br>")
+   }
+   calculer_carre(a)
+   var a = parseInt(prompt("entrez un numbre a " + "<br>"));
+   calculer_carre(a)
+   */
+   //////////////////////////////////////////
+   /*
+   
+   var a = parseInt(prompt("entrez un numbre"));
+   function pair (a)
+   {
+    if (a % 2 == 0)
+    {
+      document.write(" pair ");
+
+    }
+    else{document.write("un pair");}
+   }
+   pair(a);
+   */
+   var text = "Bienvenue a tous messi tous maroc";
+   document.write(text.length + "<br>");
+   document.write(text[0]+ "<br>");
+   document.write(text[10]+ "<br>" );
+   document.write(text[15]+ "<br>");
+   
+   document.write(text.toUpperCase()+ "<br>");
+   document.write(text.toLowerCase()+ "<br>");
+   document.write(text.trim()+ "<br>");
+   document.write(text.indexOf("tous")+ "<br>");
+   document.write(text.lastIndexOf("tous")+ "<br>");
+   var tab = [10,7,9,10]
+   document.write(tab[0]+ "<br>");
+   document.write(tab.length+ "<br>");
+   var etats = ["ohio","missouni","rama","tounsi"]
+   document.write(etats+ "<br>");
+   document.write(etats[3]+ "<br>")
+   //etats.push("caroline du nord");
+  // document.write(etats+ "<br>");
+  //etats.shift();
+  //document.write(etats+ "<br>");
+  etats.pop();
+  document.write(etats+ "<br>");
+  var montableau=[12,3,45,0,13];
+  document.write(montableau[0]+ "<br>");
+  document.write(montableau[2]+ "<br>");
+  montableau[3]=100
+   montableau.push(7);
+   document.write(montableau+ "<br>");
+   var namee = ["roxana","tounsi","omar","rami","rama"]
+  // document.write(name+ "<br>");
+   //name.push("sara");
+   namee.push("Sara")
+   document.write(namee+"<br>");
+
+   var textee = "bonjour tout le monde";
+   document.write(textee+"<br>");
+   document.write(textee[6]+"<br>");
+   document.write(textee.toUpperCase()+"<br>");
+   document.write(textee.length+"<br>");
+
+   function multiplication(a,b)
+   {
+    return a*b;
+   }
+   document.write(multiplication(2,9));
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

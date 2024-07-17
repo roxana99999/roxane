@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     /*   let object = {
+            prenom : "Roxana",
+            nom : "alrayyes",
+            age : 24,
+            info : function(){
+                return this.prenom+" "+ this.nom+" "+this.age
+            },
+            tab: ["messi","ronaldo","yaya","toure","rooney"],
+            adresse:{
+                rue:"drolet",
+                ville:"montreal",
+            }
+
+        }
+        console.log(object.age);
+       
+        document.write(object.info()+ "<br>");
+        object.tab[1] = "roro",
+        object.tab.push("koko"),
+
+        document.write(object.tab[4]+ "<br>");
+        document.write(object.tab[1]+ "<br>");
+        document.write(object.tab+ "<br>");
+        */
+       /*
+       function personne(p,n,a){
+        this.prenom=p;
+        this.nom=n;
+        this.age=a;
+        this.infos=function(){
+            return this.prenom+" "+this.nom+" "+this.age;
+        }
+       }
+       p1 = new personne("roxana" ,"alrayyes",24);
+       p2 = new personne("lina" ,"issa",66);
+       p3 = new personne("carol" ,"awes",10);
+      /*  alert(p1.nom);*/
+       /* alert(p1.infos());
+        */
+/*
+        class etudiant{
+            constructor(p,n,a){
+            this.prenom=p;
+            this.nom=n;
+            this.age=a;
+
+        }
+        info(){
+            document.write('bonjour a tous');
+
+        }
+        aa = function(){
+            return this.prenom+" "+this.nom+" "+this.age
+        }
+    }
+    e1 = new etudiant("mouna","salma",18);
+    e2 = new etudiant("roxa","sal",34);
+    alert(e1.nom)
+    e1.info()
+    console.log(e1.aa());
+    */
+   eleve = new Object();
+   eleve.prenom="justin";
+   eleve.nom="tro";
+   eleve.age=40;
+   eleve.omar=function(){
+    return this.prenom+" "+this.nom+" "+this.age
+   }
+   alert(eleve.nom)
+   alert(eleve.omar())
+    </script>
+</body>
+</html>
